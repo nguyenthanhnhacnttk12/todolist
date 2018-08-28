@@ -1,0 +1,89 @@
+a{
+	text-decoration: none;
+}
+.title{
+	text-align: center;
+	color: green;
+	
+}
+.btn-add{
+	display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid;
+    color: #fff;
+    background-color: green;
+    margin: 10px 0 50px 10px;
+}
+.btn-add:hover{
+	color: yellow;
+}
+.btn-add i{
+	padding: 0 10px;
+}
+
+.btn-edit{
+	font-size : 14px;
+	color: blue;
+
+}
+a span{
+	padding: 0 2px;
+}
+.btn-delete{
+	font-size: 14px;
+	color: red;
+}
+#date,#week,#month{
+	display: inline-block;
+	width: 50%;
+}
+
+.form-filter{
+	display: inline-block;
+	width: 30%;
+}
+.menu-view li{
+	display: inline-block;
+	list-style: none;
+	padding: 0 5px;
+}
+.menu-view li a{
+	display: block;	
+	padding: 10px;
+	background-color: #5d6d5db8;
+	color: #fff;
+	border-radius: 2px;
+}
+@media only screen and (max-width: 768px) {
+	body{
+		padding: 0 10px;
+	}
+    #date,#week,#month{
+    	width: 65%;
+    }
+    .form-filter{
+		display: block;
+		width: 100%;
+	}
+	.content-table{
+		width: 100%;
+		overflow-x:scroll;
+	}
+	.content-table table{
+		width: 900px;
+	}
+	.menu-view li{
+		list-style: none;
+		padding: 0 5px;
+		width: 30%;	
+	}
+	.menu-view li a{
+		display: block;	
+		padding: 10px;
+		background-color: #5d6d5db8;
+		color: #fff;
+		border-radius: 2px;
+	}
+
+
+}
